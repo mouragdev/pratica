@@ -60,6 +60,7 @@ main article button {
     color: white;
     font-weight: bold;
     margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 main article button:hover {
