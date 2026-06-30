@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border: 1px solid white;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+}
+
+
+main article input {
+    text-align: center;
+    padding: .3rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+/* Remove as setinhas no Chrome, Safari e Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove as setinhas no Firefox */
+input[type=number] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+main article button {
+    padding: .6rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+main article button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: .3s;
+}
